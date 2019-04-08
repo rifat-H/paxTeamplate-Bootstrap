@@ -21,8 +21,11 @@ get fonts
 
 fonts
 ==============
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
 
 
 icons
 ==============
-
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-twitter"></i>
