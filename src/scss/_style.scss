@@ -3,6 +3,29 @@ sans-serif;
 $sans: 'PT Sans',
 sans-serif;
 
+// mixins
+
+@mixin sameStyle {
+    margin-top: 100px;
+    text-align: center;
+
+    h3 {
+        margin-top: 30px;
+        margin-bottom: 14px;
+        font-size: 30px;
+        color: #5d6981;
+        font-weight: 700;
+    }
+
+    p {
+        // width: 90%;
+        font-size: 18px;
+        line-height: 30px;
+        color: #7c8ca0;
+        font-weight: 300;
+    }
+}
+
 // common css start
 body {
     font-size: 18px;
@@ -64,16 +87,11 @@ header {
 .banner {
     padding-top: 120px;
     padding-bottom: 30px;
-    // background: url(../images/banner-bd.png);
-    // background-attachment: inherit;
-    // background-size: contain;
-    // background-repeat: repeat-x;
     background-image: linear-gradient(0deg, #edeff1 1%, #ffffff 24%, #e1e3e8 31%, #ffffff 100%);
     text-align: center;
 
     h1 {
         color: #0149a1;
-        // margin-bottom: 24px;
     }
 
     h2 {
@@ -96,24 +114,7 @@ header {
     // <!-- services start -->
     .services {
         .service-content {
-            margin-top: 100px;
-            text-align: center;
-
-            h3 {
-                margin-top: 30px;
-                margin-bottom: 14px;
-                font-size: 30px;
-                color: #5d6981;
-                font-weight: 700;
-            }
-
-            p {
-                // width: 90%;
-                font-size: 18px;
-                line-height: 30px;
-                color: #7c8ca0;
-                font-weight: 300;
-            }
+            @include sameStyle;
         }
     }
 
@@ -199,7 +200,6 @@ header {
 // <!-- quote start -->
 .quote {
     padding: 75px 0;
-    background-color: #ddd;
 
     ol {
         bottom: -50px;
@@ -222,7 +222,7 @@ header {
             margin-top: 48px;
             margin-bottom: 35px;
             font-size: 24px;
-        font-style: italic;
+            font-style: italic;
 
         }
 
@@ -241,7 +241,37 @@ header {
 // <!-- quote end -->
 
 // <!-- team start -->
-.team {}
+.team {
+    text-align: center;
+    padding: 125px 0;
+    background-color: #EDEFF1;
+
+    .team-header {
+        h1 {
+            color: #0149a1;
+        }
+
+        h2 {
+            color: #7c8ca0;
+        }
+    }
+
+    .team-content {
+        @include sameStyle;
+    }
+
+    .team-button {
+        margin-top: 85px;
+
+        button {
+            background-color: #ff2d55;
+
+            &:hover {
+                background-color: #0149a1;
+            }
+        }
+    }
+}
 
 // <!-- team end -->
 
