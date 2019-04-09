@@ -1,44 +1,96 @@
+$roboto: 'Roboto',
+sans-serif;
+$sans: 'PT Sans',
+sans-serif;
+
 // common css start
+body {
+    font-size: 18px;
+    font-family: $roboto;
+}
+
+.title {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.title2 {
+    font-size: 36px;
+    font-weight: light;
+}
+
 // common css end
 
 // header start
-header{}
+header {
+    padding: 25px 0;
+    border-bottom: 1px solid #e4e6ea;
+
+    nav {
+        ul {
+            li {
+                margin-left: 25px;
+
+                a {
+                    padding: 10px 16px !important;
+                    border-radius: 22px;
+                    border: 1px solid transparent;
+
+                    &:hover {
+                        border: 1px solid #9fabba;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
 // header end
 
 // <!-- banner start -->
-.banner{}
+.banner {}
+
 // <!-- banner end -->
 
 // <!-- services start -->
-.services{}
+.services {}
+
 // <!-- services end -->
 
 // <!-- creativity start -->
-.creativity{}
+.creativity {}
+
 // <!-- creativity end -->
 
 // <!-- work start -->
-.work{}
+.work {}
+
 // <!-- work end -->
 
 // <!-- quote start -->
-.quote{}
+.quote {}
+
 // <!-- quote end -->
 
 // <!-- team start -->
-.team{}
+.team {}
+
 // <!-- team end -->
 
 
 // <!-- map start -->
-.map{}
+.map {}
+
 // <!-- map end -->
 
 // <!-- list start -->
-.list{}
+.list {}
+
 // <!-- list end -->
 
 
 // footer start
-footer{}
+footer {}
+
 // footer end
