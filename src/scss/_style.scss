@@ -282,9 +282,10 @@ header {
 // <!-- map end -->
 
 // <!-- list start -->
+
 .list {
     background-color: #0149a1;
-    padding: 90px 0;
+    padding: 75px 0;
 
     ul {
         li {
@@ -293,7 +294,7 @@ header {
             color: #ffffff;
             transition: .3s;
 
-            &:hover{
+            &:hover {
                 color: #ff2d55;
                 cursor: pointer;
             }
@@ -309,6 +310,23 @@ footer {
     background-color: #0149a1;
     padding-top: 45px;
     padding-bottom: 125px;
+    text-align: center;
+
+    p {
+        font-size: 18px;
+        line-height: 24px;
+        color: #f8f8f8;
+        text-align: center;
+
+        &:first-of-type{
+            margin-bottom: 5px;
+        }
+
+        a {
+            font-weight: bold;
+            color: #ffffff;
+        }
+    }
 }
 
 // footer end

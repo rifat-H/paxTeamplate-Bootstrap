@@ -19,17 +19,31 @@
 
     // common css end
 
+    // <!-- list start -->
+    .list {
+        ul {
+            li {
+                text-align: center;
+            }
+        }
+    }
+
+    // <!-- list end -->
+
+
     // <!-- quote start -->
-    .quote{
+    .quote {
         .carousel-content {
-            p{
+            p {
                 font-size: 20px;
             }
-            span{
+
+            span {
                 font-size: 16px;
             }
         }
     }
+
     // <!-- quote end -->
 
     // <!-- work start -->
@@ -107,6 +121,17 @@
     }
 
     // common css end
+
+    // <!-- list start -->
+    .list {
+        ul {
+            li {
+                text-align: center;
+            }
+        }
+    }
+
+    // <!-- list end -->
 
     // <!-- work start -->
     .work {
@@ -189,7 +214,7 @@
     // <!-- work start -->
     .work {
         .work-content {
-            img{
+            img {
                 margin-top: 245px;
             }
         }
@@ -250,16 +275,16 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-        // <!-- work start -->
-        .work {
-            .work-content {
-                img{
-                    margin-top: 180px;
-                }
+    // <!-- work start -->
+    .work {
+        .work-content {
+            img {
+                margin-top: 180px;
             }
         }
-    
-        // <!-- work end -->
+    }
+
+    // <!-- work end -->
 
 
     // header start
