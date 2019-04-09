@@ -34,7 +34,7 @@
             margin-bottom: 18px;
         }
 
-        button{
+        button {
             margin-bottom: 50px;
         }
 
@@ -69,6 +69,47 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
 
+    // common css start
+    .title {
+        font-size: 55px;
+    }
+
+    .title2 {
+        font-size: 32px;
+    }
+
+    .cusBtn {
+        font-size: 18px;
+        padding: 15px 45px;
+    }
+
+    // common css end
+
+    // banner start
+    .banner {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-image: none;
+        background-color: #f1f1f1;
+
+        h1 {
+            margin-bottom: 24px;
+        }
+
+        h2 {
+            margin-bottom: 28px;
+        }
+
+        button {
+            margin-bottom: 50px;
+
+        }
+
+
+    }
+
+    // banner end
+
 
 
     // header start
@@ -96,6 +137,48 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+      // common css start
+      .title {
+        font-size: 55px;
+    }
+
+    .title2 {
+        font-size: 32px;
+    }
+
+    .cusBtn {
+        font-size: 18px;
+        padding: 15px 45px;
+    }
+
+    // common css end
+
+    // banner start
+    .banner {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-image: none;
+        background-color: #f1f1f1;
+
+        h1 {
+            margin-bottom: 24px;
+        }
+
+        h2 {
+            margin-bottom: 28px;
+        }
+
+        button {
+            margin-bottom: 50px;
+
+        }
+
+
+    }
+
+    // banner end
+    
 
     // header start
     header {
