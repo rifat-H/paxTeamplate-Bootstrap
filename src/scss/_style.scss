@@ -90,14 +90,37 @@ header {
         }
     }
 
+
+
+    // <!-- services start -->
+    .services {
+        .service-content {
+            margin-top: 100px;
+            text-align: center;
+
+            h3 {
+                margin-top: 30px;
+                margin-bottom: 14px;
+                font-size: 30px;
+                color: #5d6981;
+                font-weight: 700;
+            }
+
+            p {
+                // width: 90%;
+                font-size: 18px;
+                line-height: 30px;
+                color: #7c8ca0;
+                font-weight: 300;
+            }
+        }
+    }
+
+    // <!-- services end -->
 }
 
 // <!-- banner end -->
 
-// <!-- services start -->
-.services {}
-
-// <!-- services end -->
 
 // <!-- creativity start -->
 .creativity {}
