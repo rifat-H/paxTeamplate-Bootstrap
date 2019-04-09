@@ -326,6 +326,11 @@ footer {
         a {
             font-weight: bold;
             color: #ffffff;
+
+            &:hover{
+                color: #ff2d55;
+                text-decoration: none;
+            }
         }
     }
 }
