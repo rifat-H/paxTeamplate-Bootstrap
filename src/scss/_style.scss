@@ -25,7 +25,7 @@ body {
     color: #ffffff;
     font-weight: 700;
     padding: 22px 70px;
-    transition: .3s;
+    transition: .4s;
 
 }
 
@@ -61,12 +61,12 @@ header {
 
 // <!-- banner start -->
 .banner {
-    padding-top: 140px;
-    padding-bottom: 80px;
+    padding-top: 120px;
+    padding-bottom: 30px;
     background: url(../images/banner-bd.png);
     background-attachment: inherit;
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     text-align: center;
 
     h1 {
