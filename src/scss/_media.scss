@@ -3,6 +3,46 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
 
+    // common css start
+    .title {
+        font-size: 45px;
+    }
+
+    .title2 {
+        font-size: 26px;
+    }
+
+    .cusBtn {
+        font-size: 16px;
+        padding: 10px 22px;
+    }
+
+    // common css end
+
+    // banner start
+    .banner {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-image: none;
+        background-color: #f1f1f1;
+
+        h1 {
+            margin-bottom: 14px;
+        }
+
+        h2 {
+            margin-bottom: 18px;
+        }
+
+        button{
+            margin-bottom: 50px;
+        }
+
+
+    }
+
+    // banner end
+
     // header start
     header {
         nav {
@@ -28,6 +68,8 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+
 
     // header start
     header {
