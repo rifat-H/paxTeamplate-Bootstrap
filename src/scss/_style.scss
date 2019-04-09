@@ -277,17 +277,38 @@ header {
 
 
 // <!-- map start -->
-.map {}
+// .map {}
 
 // <!-- map end -->
 
 // <!-- list start -->
-.list {}
+.list {
+    background-color: #0149a1;
+    padding: 90px 0;
+
+    ul {
+        li {
+            font-size: 18px;
+            line-height: 36px;
+            color: #ffffff;
+            transition: .3s;
+
+            &:hover{
+                color: #ff2d55;
+                cursor: pointer;
+            }
+        }
+    }
+}
 
 // <!-- list end -->
 
 
 // footer start
-footer {}
+footer {
+    background-color: #0149a1;
+    padding-top: 45px;
+    padding-bottom: 125px;
+}
 
 // footer end
