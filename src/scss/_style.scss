@@ -12,6 +12,7 @@ body {
 .title {
     font-size: 72px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .title2 {
@@ -72,7 +73,7 @@ header {
 
     h1 {
         color: #0149a1;
-        margin-bottom: 24px;
+        // margin-bottom: 24px;
     }
 
     h2 {
@@ -130,10 +131,10 @@ header {
     background-repeat: no-repeat;
     text-align: center;
 
-    button{
+    button {
         background-color: #0149a1;
 
-        &:hover{
+        &:hover {
             background-color: #ff2d55;
         }
     }
@@ -142,7 +143,56 @@ header {
 // <!-- creativity end -->
 
 // <!-- work start -->
-.work {}
+.work {
+    padding: 128px;
+    background-color: #0149a1;
+
+    .work-head {
+        text-align: center;
+
+        h1 {
+            color: #fff;
+        }
+
+        h2 {
+            color: #5483bb;
+        }
+    }
+
+    .work-content {
+        img {
+            margin-top: 115px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 30px;
+            color: #ffffff;
+            font-weight: 300;
+            margin-bottom: 20px;
+
+            &:first-of-type {
+                margin-top: 115px;
+            }
+        }
+    }
+
+    .work-button {
+        text-align: center;
+        margin-top: 45px;
+
+
+        button {
+            color: #0149a1;
+            background-color: #fff;
+
+            &:hover{
+                color: #fff;
+                background-color: #ff2d55;
+            }
+        }
+    }
+}
 
 // <!-- work end -->
 
