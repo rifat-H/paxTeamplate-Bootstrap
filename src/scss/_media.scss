@@ -19,6 +19,14 @@
 
     // common css end
 
+    // <!-- work start -->
+    .work {
+        .work-content {
+            text-align: center;
+        }
+    }
+
+    // <!-- work end -->
 
 
     // banner start
@@ -87,6 +95,15 @@
 
     // common css end
 
+    // <!-- work start -->
+    .work {
+        .work-content {
+            text-align: center;
+        }
+    }
+
+    // <!-- work end -->
+
     // banner start
     .banner {
         padding-top: 30px;
@@ -140,8 +157,8 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-      // common css start
-      .title {
+    // common css start
+    .title {
         font-size: 55px;
     }
 
@@ -155,6 +172,18 @@
     }
 
     // common css end
+
+    // <!-- work start -->
+    .work {
+        .work-content {
+            img{
+                margin-top: 245px;
+            }
+        }
+    }
+
+    // <!-- work end -->
+
 
     // banner start
     .banner {
@@ -207,6 +236,18 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+        // <!-- work start -->
+        .work {
+            .work-content {
+                img{
+                    margin-top: 180px;
+                }
+            }
+        }
+    
+        // <!-- work end -->
+
 
     // header start
     header {
