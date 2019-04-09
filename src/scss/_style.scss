@@ -123,7 +123,21 @@ header {
 
 
 // <!-- creativity start -->
-.creativity {}
+.creativity {
+    padding: 173px 0;
+    background: url(../images/creativity.jpg);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    text-align: center;
+
+    button{
+        background-color: #0149a1;
+
+        &:hover{
+            background-color: #ff2d55;
+        }
+    }
+}
 
 // <!-- creativity end -->
 
