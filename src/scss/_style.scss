@@ -19,6 +19,16 @@ body {
     font-weight: light;
 }
 
+.cusBtn {
+    border-radius: 30px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 22px 70px;
+    transition: .3s;
+
+}
+
 // common css end
 
 // header start
@@ -50,7 +60,36 @@ header {
 // header end
 
 // <!-- banner start -->
-.banner {}
+.banner {
+    padding-top: 140px;
+    padding-bottom: 80px;
+    background: url(../images/banner-bd.png);
+    background-attachment: inherit;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    h1 {
+        color: #0149a1;
+        margin-bottom: 24px;
+    }
+
+    h2 {
+        color: #5d6981;
+        margin-bottom: 108px;
+    }
+
+    button {
+        background-color: #ff2d55;
+        margin-bottom: 115px;
+
+
+        &:hover {
+            background-color: #0149a1;
+        }
+    }
+
+}
 
 // <!-- banner end -->
 
