@@ -20,10 +20,10 @@
     <title>PaxTemplate Bootstrap</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="120">
 
     <!-- header start -->
-    <header class="sticky-top">
+    <header class="sticky-top" id="header">
         <div class="container">
             <!-- navbar start -->
             <nav class="navbar navbar-expand-lg navbar-light ">
@@ -38,20 +38,20 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#banner">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#creativity">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Our Team</a>
+                            <a class="nav-link" href="#team">Our Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="#work">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#map">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#" style="color: #3C5A99; border: 1px solid #3C5A99;">
@@ -73,7 +73,7 @@
     <!-- header end -->
 
     <!-- banner start -->
-    <section class="banner">
+    <section class="banner" id="banner">
         <div class="container">
             <h1 class="title">Check our creativity</h1>
             <h2 class="title2">We are the best and we know it!</h2>
@@ -133,13 +133,13 @@
     <!-- banner end -->
 
     <!-- creativity start -->
-    <section class="creativity">
+    <section class="creativity" id="creativity">
         <button class="cusBtn">Ask for price</button>
     </section>
     <!-- creativity end -->
 
     <!-- work start -->
-    <section class="work">
+    <section class="work" id="work">
         <div class="container">
             <!-- work head start -->
             <div class="work-head">
@@ -176,7 +176,7 @@
     <!-- work end -->
 
     <!-- quote start -->
-    <section class="quote">
+    <section class="quote" id="quote">
         <div class="container">
             <!-- carousel start -->
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -270,7 +270,7 @@
     <!-- quote end -->
 
     <!-- team start -->
-    <section class="team">
+    <section class="team" id="team">
         <div class="container">
             <!-- team header start -->
             <div class="team-header">
@@ -348,7 +348,7 @@
 
 
     <!-- map start -->
-    <section class="map">
+    <section class="map" id="map">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14598.908778469931!2d90.37021039999999!3d23.82829805!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1554821438628!5m2!1sen!2sbd"
             style="border:0; height: 590px; width: 100%;" allowfullscreen></iframe>
@@ -356,7 +356,7 @@
     <!-- map end -->
 
     <!-- list start -->
-    <section class="list">
+    <section class="list" id="list">
         <div class="container">
             <div class="row">
 
@@ -428,7 +428,7 @@
     <!-- list end -->
 
     <!-- footer start -->
-    <footer>
+    <footer id="footer">
         <div class="container">
             <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
             <p>Try awsome tool for desgners <a href="#">symu.co</a></p>
@@ -438,6 +438,19 @@
 
     <!-- all -->
     <script src="js/script.js"></script>
+
+        <script>
+            $('.nav-link').click(function(e){
+                e.preventDefault();
+                let link = $(this).attr('href');
+
+                $('html, body').animate({
+                    scrollTop: $(link).offset().top - 112
+                }, 2000);
+
+            });
+        </script>
+
 </body>
 
 </html>
